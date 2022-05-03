@@ -64,9 +64,10 @@ h1 {
 
 footer {
     background-color: #9ab4f5;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0;
 }
 
 footer p {
@@ -117,4 +118,10 @@ figcaption {
     border: 1px solid #9ae4f5;
     border-radius: 15px;
     padding: 5px;
+}
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
