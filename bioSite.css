@@ -120,8 +120,14 @@ figcaption {
     padding: 5px;
 }
 
-#image-gallery {
-    margin-top: 10%;
+#hobby-gallery {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#goal-gallery {
+    margin: 10%;
     display: grid;
     grid-template-columns: auto auto auto;
 }
