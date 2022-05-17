@@ -50,7 +50,7 @@ h1 {
 .card-title {
     text-align: center;
     font-size: 2em;
-    color: rgba(0, 0, 0, 0.2);
+    color: #9ab4f5;
     font-weight: 400;
 }
 
@@ -105,13 +105,8 @@ figure {
 
 figcaption {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-style: italic;
-    font-size: .75em;
+    font-size: 1em;
     font-weight: 400;
-}
-
-figcaption {
-   color: #98bfdf;
 }
 
 .gallery-item {
@@ -121,7 +116,7 @@ figcaption {
 }
 
 #hobby-gallery {
-    margin: 10%;
+    margin: 5%;
     display: grid;
     grid-template-columns: auto auto auto;
 }
